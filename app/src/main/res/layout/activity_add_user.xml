@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUser">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:textSize="30sp"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etLastname"
+        android:textSize="30sp"
+        android:hint="@string/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etEmail"
+        android:textSize="30sp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddUser"
+        android:text="@string/add_user"
+        android:layout_marginTop="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+         />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

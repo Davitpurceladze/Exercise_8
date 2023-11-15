@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercise_8</string>
+    <string name="registered_users">Registered Users</string>
+    <string name="delete_user">Delete User</string>
+    <string name="update_user">Update User</string>
+    <string name="add_user">Add User</string>
+    <string name="name">Name</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email</string>
+</resources>
